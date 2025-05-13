@@ -1,0 +1,18 @@
+
+# Core dependencies
+mcp>=1.6.0           # Model Context Protocol
+sentence-transformers>=2.2.2  # Embedding models
+faiss-cpu>=1.7.4     # Vector database (or faiss-gpu for GPU support)
+ollama>=0.0.19       # Interface to local LLMs
+numpy>=1.23.0        # Numerical operations
+openai>=1.3.0        # OpenAI API client (optional)
+anthropic>=0.5.0     # Anthropic API client (optional)
+
+# Data handling
+sqlite3>=2.6.0       # Database storage
+pandas>=2.0.0        # Data manipulation
+plotly>=5.14.0       # Data visualization
+
+# Utilities
+gradio>=3.36.0       # Web UI
+asyncio>=3.4.3       # Asynchronous programming
